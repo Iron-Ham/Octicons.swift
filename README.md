@@ -27,7 +27,7 @@ let image: Image = Octicons.alert24.swiftUiImage
 ## Contributing
 
 I'm more than happy to accept Pull Requests!
-New Octicons are added all the time, and I'm not necessarily adding them as soon as I can. 
+New [Octicons](https://github.com/primer/octicons) are added all the time, and I'm not necessarily adding them as soon as I can. 
 
 In order to re-generate all of the Octicons in the media bundle, you'll need to have [SwiftGen](https://github.com/SwiftGen/SwiftGen#installation) installed. 
 
