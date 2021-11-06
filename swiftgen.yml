@@ -1,0 +1,8 @@
+xcassets:
+  inputs:
+    - Sources/Octicons.swift/Resources/Media.xcassets
+  outputs:
+    - templateName: swift5
+      output: Sources/Octicons.swift/Octicons.swift
+      params:
+        publicAccess: true
