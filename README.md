@@ -1,7 +1,7 @@
 # Octicons.swift
 
 Do you like [Octicons](https://primer.style/octicons/)? I do too. 
-The purpose of this package is to make them availabel to iOS apps in both UIKit and SwiftUI.
+The purpose of this package is to make them availabel to iOS, watchOS, and macOS apps in UIKit, AppKit, and SwiftUI.
 
 These Octicons are all being represented by SVGs. 
 
@@ -11,6 +11,14 @@ This package is available through Swift Package Manager.
 
 
 ## Usage
+
+This package requires the following minimum versions in your project:
+- macOS 10_15
+- iOS 13
+- watchOS 6
+- tvOS 13
+
+Note that these are the same requirements of SwiftUI. 
 
 ### UIKit
 
