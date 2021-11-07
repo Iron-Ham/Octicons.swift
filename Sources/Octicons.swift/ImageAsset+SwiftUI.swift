@@ -1,8 +1,8 @@
 import Foundation
 import SwiftUI
 
-extension ImageAsset {
-    var swiftUiImage: SwiftUI.Image {
+public extension ImageAsset {
+    public var swiftUiImage: SwiftUI.Image {
         #if os(macOS)
         SwiftUI.Image(nsImage: image)
         #else
