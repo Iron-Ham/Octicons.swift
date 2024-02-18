@@ -2,7 +2,7 @@ import Foundation
 import SwiftUI
 
 public extension ImageAsset {
-    public var swiftUiImage: SwiftUI.Image {
+    var swiftUiImage: SwiftUI.Image {
         #if os(macOS)
         SwiftUI.Image(nsImage: image)
         #else
